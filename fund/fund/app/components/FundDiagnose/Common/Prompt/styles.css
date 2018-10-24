@@ -1,0 +1,61 @@
+.prompt{
+    position: relative;
+    /* z-index:1000; */
+    font-size: 0.16rem;
+    /* font-size: 32px; */
+    margin-top:0.44rem;
+    height:0.54rem;
+    background-color: #fff;
+    padding:0 0.15rem;
+    border-bottom: 1px solid #D9E0E6;
+    /* margin-bottom: 1rem; */
+}
+.prompt-left{
+    line-height: 0.54rem;
+    color:#626467;
+    font-family: SFProDisplay-Medium;
+    /* font-family: PingFangSC-Medium; */
+
+
+}
+.prompt-left .light{
+    color:#FB3503;
+}
+.prompt-right{
+    position: absolute;
+    top: 50%;
+    right: 0.15rem;
+    display: block;
+    margin: -0.14rem 0 0 -0.34rem;
+    border-radius: 0.03rem;
+    width:0.68rem;
+    height:0.28rem;
+    font-size:0.12rem;
+    color:#fff;
+    float:right;
+    text-align: center;
+    line-height: 0.28rem;
+    box-shadow: 0 0.02rem 0.08rem 0 rgba(255,127,48,0.50);;
+}
+.bg-c{
+    background: -webkit-linear-gradient(right, #FF7744, #FFB34A);
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #FF7744, #FFB34A);
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #FF7744, #FFB34A);
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #FF7744, #FFB34A);
+}
+.test{
+    border-radius: 0.03rem;
+    width:0.68rem;
+    height:0.28rem;
+    font-size:0.12rem;
+    color:#fff;
+    float:right;
+    text-align: center;
+    border:0.01rem #333 solid;
+    line-height: 0.28rem;
+    margin-top:0.11rem;
+    box-shadow: 0 0.02rem 0.08rem 0 rgba(255,127,48,0.50);;
+}

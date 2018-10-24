@@ -1,0 +1,31 @@
+.tag-blue {
+  display: block;
+  background: #E9F5FF;
+  float: left;
+  font-size: 0.11rem;
+  color: #58AEFF;
+  line-height: 0.19rem;
+  border-radius: 0.04rem;
+  font-weight: 300;
+  padding: 0.01rem 0.1rem 0.01rem 0.1rem;
+}
+
+.tag-grey {
+  display: block;
+  background: #F7F7F7;
+  float: left;
+  font-size: 0.11rem;
+  color: #AAAAAA;
+  line-height: 0.19rem;
+  border-radius: 0.04rem;
+  font-weight: 300;
+  padding: 0.01rem 0.1rem 0.01rem 0.1rem;
+}
+
+.mgr-mgb-4 {
+  margin: 0 0.04rem 0.04rem 0;
+}
+
+.mgu-mgb-8 {
+  margin: 0.08rem 0 0.08rem 0;
+}

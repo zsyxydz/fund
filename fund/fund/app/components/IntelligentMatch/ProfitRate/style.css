@@ -1,0 +1,101 @@
+.clearfix:after{
+  content:"";
+  height:0;
+  line-height:0;
+  display:block;
+  clear:both;
+  visibility:hidden;
+  }
+.shares_evaluates{
+    background: #F5FAFF;  
+    border-radius: 0.04rem;
+    color: #74859E;
+    font-size:0.14rem;
+    padding: 0.15rem;
+    text-align: center
+  }
+  .shares_evaluates span{
+    font-size:0.14rem;
+  }
+  .echartTest{
+    /* padding: 0 0.15rem; */
+    width: 100%;
+    height:2.52rem;
+    margin:0 auto;
+    margin-bottom:0.15rem;
+}
+
+.introduce{
+  padding: 0.1rem 0.15rem; 
+  margin:0 -0.15rem;
+}
+.weight{
+  background: #F5FAFF;
+
+}
+.bg-color{
+  display: inline-block;
+  width: 0.1rem;
+  height:0.02rem;
+  background: red;
+  visibility: middle
+}
+.introduce ul li{
+  float: right;
+  width: 33%;
+  font-family: PingFangSC-Regular;
+  font-size: 0.11rem;
+  color: #6E7175;
+  line-height: 0.11rem;
+}
+.introduce ul li:nth-of-type(1){
+  float: left;
+}
+.echartboxs{
+  position: relative;
+}
+.cw{
+  position: absolute;
+  top: -.05rem;
+  left: 0rem;
+  font-family: SFProText-Regular;
+  font-size: 0.12rem;
+  color: #6E7175;
+  line-height: 0.12rem;
+}
+.introduce ul li:nth-of-type(1){
+  font-size: 0.11rem;
+  color: #626467;
+  line-height: 0.11rem;
+  font-family: SFProText-Regular;
+}
+.introduce ul li span:nth-of-type(2){
+  margin-right: 0.05rem;
+  
+}
+.introduce ul li span:nth-of-type(1){
+  margin-right: 0.02rem;
+  }
+  .introduce ul li:nth-of-type(2) .bg-color{
+    background: #FF7818;
+    margin-top:0
+  }
+  .introduce ul li:nth-of-type(3) .bg-color{
+    background:  #C9E5FF;
+    margin-top:0
+  } 
+  .date{
+    position: absolute;
+    bottom:-0.15rem;
+    left:0;
+    color:#6E7175;
+    font-size:0.12rem;
+    width:100%;
+  }
+.date span:nth-of-type(1){
+  float: left;
+}
+.date span:nth-of-type(1){
+  float: right;
+  margin-right:0.05rem
+}

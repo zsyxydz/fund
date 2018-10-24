@@ -1,0 +1,104 @@
+.edit{
+  background: #fff;
+  margin-bottom:0.08rem;
+  position: relative;
+}
+.edit >div{
+  float: left;
+}
+.clearfix::after{
+  content:'';
+  height:0;
+  display: block;
+  clear: both;
+}
+.fund-one{
+  width: 50%;
+
+  background: #FFFCEE;
+}
+
+.fund-two{
+  width: 50%;
+  background: #EAF2FF;
+}
+.edit>div>div{
+  padding: 0.15rem;
+}
+.conditionArea_fixed{
+  position:fixed;
+  width:100%;
+  top:0rem;
+  z-index: 990;
+   box-shadow: 0 0.05rem 0.2rem 0 rgba(188, 89, 30, 0.2)
+}
+.vs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:0 auto;
+  z-index: 21;
+}
+.vs img{
+  width:0.34rem;
+  height: .34rem;
+}
+.fundName{
+  font-family: PingFangSC-Semibold;
+  font-size: .16rem;
+  color: #B08440;
+  line-height: .20rem;
+  margin-left:.35rem;
+  width:1rem
+}
+.editImg{
+  width: 0.18rem;
+  height:0.18rem;
+
+  position: absolute;
+  left:0.25rem;
+  top:0.16rem;
+}
+.fund-one{
+  position: relative;
+}
+.fund-two{
+  position: relative;
+}
+.fund-one .one{
+  position: relative;
+}
+.fund-two .two{
+  position: relative;
+}
+.fund-two .fundName{
+  color: #72819A;
+}
+.sjx-yellow{
+  position: absolute;
+  right:-0.25rem;
+  top:0;
+  width: 0px;
+  height: 0px;
+  border-color: transparent #FFFCEE;
+  border-width: 0 0 .350rem .250rem;
+  border-style: solid;
+  padding: 0 !important;
+  z-index: 20;
+}
+.sjx-blue{
+  position: absolute;
+  left:-0.25rem;
+  bottom:0;
+  width: 0px;
+  height: 0px;
+  border-color: transparent #EAF2FF;
+  border-width: 0.35rem 0.25rem 0 0;
+  border-style: solid;
+  padding: 0 !important
+}

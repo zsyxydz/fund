@@ -1,0 +1,92 @@
+.clearfix:after{
+    content:'';
+    clear: both;
+    height:0;
+    display: block
+}
+.power ul{
+    margin:0 auto;
+    margin-bottom:0.14rem;
+}
+.power ul li{
+    margin-top:0.05rem;
+    float: left;
+    height:1.59rem;
+    text-align: center;
+    width: 100%;
+    border-bottom: 0.01rem solid rgba(0,0,0,0.06);
+}
+.power ul li>span:nth-of-type(1)>span{
+    display: inline-block;
+    background:#FFBE4D;
+    border-radius: 0.04rem 0.04rem 0 0;
+    width:0.32rem;
+    margin-right: 0.08rem;    
+    height:43.3%;
+    position: absolute;
+    bottom:0;
+    left:0rem;
+}
+.power ul li>span{
+    position: relative;
+    display: inline-block;
+    background:#fff;
+    border-radius: 0.04rem 0.04rem 0 0;
+    margin-right: 0.08rem;    
+    width:0.32rem;
+    height:100%;
+}
+.power ul li>span:nth-of-type(2)>span{
+    display: inline-block;
+    background: #E4F2FF;
+    border-radius: 0.04rem 0.04rem 0 0;
+    width:0.32rem;
+    height:32.4%;
+    position: absolute;
+    bottom:0;
+    left:0rem;
+}
+.power ul li>span:nth-of-type(3)>span{
+    display: inline-block;
+    background: #ECEDED;
+    border-radius: 0.04rem 0.04rem 0 0;
+    width:0.32rem;
+    height:30.2%;
+    position: absolute;
+    bottom:0;
+    left:0rem;
+}
+.power p>span{
+    display: inline-block;
+    width:100%;
+    text-align: center;
+    font-family: PingFangSC-Regular;
+    font-size: .14rem;
+    color: #6E7175;
+    line-height: .14rem;
+}
+.illustrate{
+    position: relative;
+    background: #F5FAFF;
+    margin: 0 auto;
+    margin: 0 0.25rem;
+    margin-top:0.08rem;
+    padding: 0.1rem 0.1rem 0.1rem;
+    border-radius: 0.04rem;
+    font-family: PingFangSC-Regular;
+    font-size: .14rem;
+    color: #8490A1;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: .18rem;
+}
+.power ul li span span span{
+    position: absolute;
+    top:-0.15rem;
+    left:0.05rem;
+    font-size: 0.12rem;
+    color:#8490A1;
+}
+.power ul li span span{
+    /* position: relative; */
+}

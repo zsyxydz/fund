@@ -1,0 +1,111 @@
+/*客户详情头部信息*/
+.account_detail_box{
+    padding: 0.2rem 0.15rem;
+    overflow: hidden;
+  }
+  .bg_white{
+    /* margin-top:0.08rem; */
+    border-bottom: 0.01rem solid rgba(0,0,0,0.04);
+    position: absolute;
+    top:0rem
+  }
+  .account_detail_icon_box{
+    margin-right: 4%;
+    overflow: hidden;
+    float: left;
+    width: 23.2%;
+  }
+  .account_detail_icon_box .big_icon{
+    width: 100%;
+    height: 100%;
+    float: left;
+  }
+  .account_detail_info_box{
+    width: 72.8%;
+    float: left;
+    overflow: hidden;
+  }
+  .account_detail_info_box .account_info{
+    overflow: hidden;
+    margin-bottom: 0.035rem;
+    width: 100%;
+  }
+  .account_detail_info_box .account_info h4{
+    float: left;
+    line-height: 0.3rem;
+    margin-right: 0.1rem;
+    color: #4F5A64;
+  }
+  .account_detail_info_box .account_info p{
+    float: left;
+    line-height: 0.2rem;
+    margin-top: 0.07rem;
+    color: #B5BDC5;
+  }
+  .account_detail_info_box .account_tag_box{
+    width: 100%;
+    overflow: hidden;
+  }
+  .account_detail_info_box .account_tag_box .tag-item{
+    float: left;
+    margin-top: 0.025rem;
+    margin-bottom: 0.025rem;
+    margin-right: 0.05rem;
+    border-radius: 0.04rem;
+  }
+  .clearfix:after{
+    content:"";
+    height:0;
+    line-height:0;
+    display:block;
+    clear:both;
+    visibility:hidden;
+    }
+  .stock_tab_box{
+    position: relative;
+    width: 100%;
+    height: 0.40rem;
+    display: -webkit-flex;
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-family: PingFangSC-Medium;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .stock_tab_box a{
+    width: 20%;
+    font-size: 0.16rem;
+    line-height: 0.4rem;
+    text-align: center;
+    color: #6E7175;
+    margin:0 7%;
+    font-weight: 300;
+  }
+  .stock_tab_box .active{
+    /* position: relative; */
+    color: #F57317;
+    line-height: 0.38rem;
+    /* border-bottom: 0.02rem solid #F57317; */
+    font-weight: normal;
+  }
+  .header_loading_min_height{
+    min-height: 0.87rem;
+  }
+  .conditionArea_fixed{
+    position:fixed;
+    width:100%;
+    top:0.44rem;
+    z-index: 990;
+  }
+  .animate{
+    position: absolute;
+    left: -66.9%; top: 0.4rem; right: 0; bottom: 0;
+    margin: auto;  
+    display: inline-block;
+    width:0.5rem;
+    height:0.04rem;
+    background: #F57317;
+  }
+ 
+  

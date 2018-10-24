@@ -1,0 +1,54 @@
+.clearfix:after{
+  content:"";
+  height:0;
+  line-height:0;
+  display:block;
+  clear:both;
+  visibility:hidden;
+  }
+.select-box{
+  display: table;
+  position: relative;
+  width:2.18rem !important;
+  height:0.88rem;
+  background-color: #fff;
+  /* background-image: url(../../../images/homeIcon/cardBottom.png); */
+  background-repeat: no-repeat;
+  box-shadow: 0 .02rem .04rem 0 rgba(188,89,30,0.10);
+  border-radius: .04rem;
+  text-align: center;
+  }
+.select-child{
+  display: table-cell;
+    vertical-align: middle;
+}
+.select-one{
+  font-family: PingFangSC-Medium;
+  font-size: .20rem;
+  color: #4A4A4A;
+  line-height: .20rem;
+  margin-bottom:0.08rem;
+}
+.select-two{
+  font-family: PingFangSC-Medium;
+  font-size: .14rem;
+  color: #8490A1;
+  line-height: .14rem;
+  margin-bottom:0.04rem;
+}
+.select-two span:nth-of-type(1){
+  margin-right:0.05rem
+}
+.select-three{
+  font-family: PingFangSC-Regular;
+  font-size: .12rem;
+  color: #9B9B9B;
+  line-height: .12rem;
+}
+.select-img{
+  position: absolute;
+  bottom: 0;
+  right:0;
+  width: 0.73rem;
+  height:0.44rem;
+}

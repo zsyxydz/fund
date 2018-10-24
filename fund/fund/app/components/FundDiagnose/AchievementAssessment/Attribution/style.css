@@ -1,0 +1,215 @@
+.clearfix:after{
+    content:'';
+    clear: both;
+    height:0;
+    display: block
+}
+.Attrs>p{
+    content:"";
+    /* display:inline-block; */
+    height:100%;
+    vertical-align:middle;
+    margin-bottom:0.17rem;
+}
+.height-tree{
+    height:1.6rem
+}
+.Attr>div>p{
+    content:"";
+    /* display:inline-block; */
+    height:100%;
+    vertical-align:middle;
+}
+.Attr-style-page{
+    margin-bottom:0.17rem;
+}
+.Attrs>p span:nth-of-type(1){
+    display: inline-block;
+    height: 0.14rem;
+    width: 0.14rem;
+    /* background: #D8D8D8; */
+    line-height: 0.19rem;
+    border-radius: .04rem;
+    margin-right: 0.04rem;
+    vertical-align:middle;
+}
+.Attrs>p span:nth-of-type(2){
+    font-family: PingFangSC-Medium;
+    font-size: .14rem;
+    color: #6E7175;
+    height: 0.19rem;
+    vertical-align:middle;
+    line-height: .14rem;
+}
+.Attrs>p span:nth-of-type(3){
+    font-family: PingFangSC-Medium;
+    font-size: .16rem;
+    color: #FF7818;
+    text-align: right;
+    width:0.65rem;
+    vertical-align:middle;
+    height: 0.19rem;
+    margin-left:0.18rem;
+}
+.Attrs>p span:nth-of-type(4){
+    display: inline-block;
+    font-family: PingFangSC-Regular;
+    font-size: .11rem;
+    color: #58AEFF;
+    float: right;
+    background: #E9F5FF;
+    border-radius: .04rem;
+    text-align: center;
+    line-height: .19rem;
+    width:0.38rem;
+    height: 0.19rem;
+    margin-left:0.08rem;
+}
+.Attr-list{
+    margin-bottom:0.23rem;
+}
+.Attr-list p{
+    margin-bottom:0.1rem;
+    line-height: 0.2rem
+}
+.Attr-list p>span{
+    line-height: 0.25rem;
+}
+.Attr-list p>span:nth-of-type(1){
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+    font-family: PingFangSC-Regular;
+    font-size: .12rem;
+    height:0.2rem;
+    width: 10%;
+    color: #6E7175;
+    line-height: .2rem;
+}
+.bg-left{
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 45%;
+    background: #F5FAFF;
+    height:0.2rem;
+}
+.bg-right{
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 45%;
+    height:0.2rem;
+    background: #FFF4E5;;
+}
+.data-left{
+    position: absolute;
+    right:0rem;
+    top:0rem;
+    width: 70%;
+    height:0.2rem;
+    background-image: linear-gradient(90deg, #32A9FF 0%, #AADEFF 100%);
+    border-radius:  0.15rem 0 0 0.15rem;
+}
+.data-right{
+    position: absolute;
+    left:0rem;
+    top:0rem;
+    width: 50%;
+    height:0.2rem;
+    background-image: linear-gradient(90deg, #FFC129 0%, #FF7831 100%);
+    border-radius: 0 0.15rem 0.15rem 0;
+}
+.data-right-number{
+    position: absolute;
+    right:0.05rem;
+    top:0.03rem;
+    font-family: PingFangSC-Medium;
+    font-size: .12rem;
+    color: #FFFFFF;
+    line-height: .12rem;
+}
+.data-left-number{
+    position: absolute;
+    left:0.05rem;
+    top:0.03rem;
+    font-family: PingFangSC-Medium;
+    font-size: .12rem;
+    color: #FFFFFF;
+    line-height: .12rem;
+}
+.Attr-trade-page > div,.Attr-int-page>div{
+    margin-bottom:0.2rem;
+}
+.Attr-trade-page-int{
+    padding: 0.11rem 0.08rem 0.09rem;
+    background: #F7F7F7;
+    border-radius: 0.04rem;
+    font-family: PingFangSC-Regular;
+    font-size: .14rem;
+    color: #6E7175;
+    line-height: .20rem;
+    margin-top: .15rem;
+}
+.Attr-income-int{
+    padding: 0.11rem 0.08rem 0.09rem;
+    background: #F7F7F7;
+    border-radius: 0.04rem;
+    font-family: PingFangSC-Regular;
+    font-size: .12rem;
+    color: #6E7175;
+    line-height: .20rem;
+}
+.Attr-trade-page-int>span{
+    display: inline;
+    font-family: PingFangSC-Medium;
+    font-size: .14rem;
+    color:  #FF7818;
+    line-height: .20rem;
+}
+.Attr-income-int span{
+    font-family: PingFangSC-Medium;
+    font-size: .14rem;
+    color:  #FF7818;
+    line-height: .20rem;
+}
+.Attr-trade-page-ints{
+    
+    font-size: .14rem;
+    
+}
+.Attr-trade-page-int attr{
+    display: inline;
+    font-family: PingFangSC-Medium;
+    font-size: .14rem;
+    color:  #FF7818;
+    line-height: .20rem;
+}
+.Attr-trade-page-ints label{
+    display: inline;
+    font-family: PingFangSC-Medium;
+    font-size: .14rem;
+    color:  #FF7818;
+    line-height: .20rem;
+}
+.Attr-trade-page-ints{
+    padding: 0.11rem 0.08rem 0.09rem;
+    background: #F7F7F7;
+    border-radius: 0.04rem;
+    font-family: PingFangSC-Regular;
+    font-size: .14rem;
+    color: #6E7175;
+    line-height: .20rem;
+    margin-top: .15rem;
+}
+.iconTest img{
+    /* display: inline-block; */
+    width:100%;
+    height:100%
+}
+.ks{
+    color:#58AEFF !important
+}
+.yl{
+    color:#FF7818 !important
+}

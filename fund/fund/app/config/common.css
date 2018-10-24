@@ -1,0 +1,255 @@
+/*--------------------------------------默认样式-------------------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border: none;
+}
+
+a {
+  text-decoration: none !important;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul,
+ol,
+dl {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+var,
+strong,
+i {
+  font-style: normal;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 0.22rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 0.20rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 0.18rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 0.16rem;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 0.14rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 0.12rem;
+  font-weight: 300;
+}
+
+body {
+  font-family: PingFang SC, Droid Sans Fallback, Helvetica Neue, Helvetica, Arial, sans-serif;
+  background-color: #F7F7F7;
+  
+  /* font-weight: normal; */
+}
+
+@media screen and (min-width:360px) and (max-width:374px) and (orientation:portrait) {
+    html { font-size: 703%; }
+}
+@media screen and (min-width:375px) and (max-width:383px) and (orientation:portrait) {
+    html { font-size: 732.4%; }
+}
+@media screen and (min-width:384px) and (max-width:399px) and (orientation:portrait) {
+    html { font-size: 750%; }
+}
+@media screen and (min-width:400px) and (max-width:413px) and (orientation:portrait) {
+    html { font-size: 781.25%; }
+}
+@media screen and (min-width:414px) and (max-width:431px) and (orientation:portrait){
+    html { font-size: 808.6%; }
+}
+@media screen and (min-width:432px) and (max-width:479px) and (orientation:portrait){
+    html { font-size: 843.75%; }
+}
+
+a,
+input,
+li {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  /*ios android去除自带阴影的样式*/
+}
+
+p,
+span,
+b,
+h4 {
+  pointer-events: none;
+}
+
+input,
+textarea {
+  border: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+table {
+  border-spacing: 0 !important;
+}
+
+/*--------------------------------------显示隐藏----------------------------------------*/
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none !important;
+}
+
+
+/*浮动*/
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.p_relative {
+  position: relative;
+}
+
+.p_absolut {
+  position: absolute;
+  top: 0;
+}
+
+
+/*----------------------------------------边距------------------------------------------*/
+
+.mb_15 {
+  margin-bottom: 0.15rem;
+}
+
+.mb_10 {
+  margin-bottom: 0.10rem;
+}
+
+.mb_5 {
+  margin-bottom: 0.05rem;
+}
+
+.mt_10 {
+  margin-top: 0.1rem;
+}
+
+.mt_15 {
+  margin-top: 0.15rem;
+}
+
+.mt_50 {
+  margin-top: 0.50rem;
+}
+
+.no_mt {
+  margin-top: 0;
+}
+
+.no_mb {
+  margin-bottom: 0;
+}
+
+.no_padding_b {
+  padding-bottom: 0 !important;
+}
+
+.no_padding_lr {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.no_padding_t {
+  padding-top: 0 !important;
+}
+
+.pb_5 {
+  padding-bottom: 0.05rem;
+}
+
+
+/*-----------------------------------------边框------------------------------------------*/
+
+.border_b {
+  border-bottom: 1px solid #E9EEF2;
+}
+
+
+/*----------------------------------------文字对齐---------------------------------------*/
+
+.t_a_center {
+  text-align: center;
+}
+
+.t_a_left {
+  text-align: left;
+}
+
+.t_a_right {
+  text-align: right;
+}
+
+/*---------------------------------------定位----------------------------------------*/
+
+/*父级盒子*/
+
+header {
+  width: 100%;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+section {
+  margin-top: 0.10rem;
+  overflow: hidden;
+}
+
+footer {
+  font-size: 0.12rem;
+  line-height: 0.42rem;
+  color: #B5BDC5;
+  text-align: center;
+  font-weight: 300;
+}
+
+d_inline {
+  display: inline;
+}
+
+.section-container{
+  margin-top: 0.44rem;
+}

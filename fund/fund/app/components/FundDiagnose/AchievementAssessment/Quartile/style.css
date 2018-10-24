@@ -1,0 +1,85 @@
+.clearfix:after{
+    content:'';
+    clear: both;
+    height:0;
+    display: block
+}
+.Four{
+    margin-left:0.2rem;
+    /* width: 3.2rem; */
+     overflow-y: hidden;
+    overflow-x: scroll
+}
+.Four-list{
+    width:5.5rem;
+    height: 1.3rem; 
+}
+.Four-list li{
+    float: left;
+    margin-right:0.21rem;
+    /* margin-right:6%; */
+    /* width:14% */
+}
+.Four-box span{
+    display:block;
+    background: #F7F7F7;
+    width: 0.44rem;
+    /* width: 7%; */
+    height: 0.25rem;
+    margin-bottom:0.02rem;
+    font-family: PingFangSC-Medium;
+    font-size: .14rem;
+    line-height: .25rem;
+    color:#F7F7F7;
+    text-align: center
+}
+.Four-box span:last-child{
+    text-align: center;
+    display:block;
+    background:none;
+    font-family: PingFangSC-Medium;
+    font-size: .12rem;
+    color: #6E7175;
+    line-height: .12rem;
+    padding-top: 0.06rem
+}
+.Four-one span:nth-of-type(4){
+    background: #E4F2FF;
+    color: #58AEFF;
+}
+.Four-two span:nth-of-type(4){
+    background: #E4F2FF;
+    color: #E4F2FF;
+}
+.Four-two span:nth-of-type(3){
+    background: #CBE6FF;
+    color: #58AEFF;
+}
+.Four-three span:nth-of-type(4){
+    background: #FFF0D8;
+    color: #FFF0D8;
+}
+.Four-three span:nth-of-type(3){
+    background: #FFEAC5;
+    color: #FFEAC5;
+}
+.Four-three span:nth-of-type(2){
+    background: #FFE0AC;
+    color: #FF7818;
+}
+.Four-four span:nth-of-type(4){
+    background: #FFF0D8;
+    color: #FFF0D8;
+}
+.Four-four span:nth-of-type(3){
+    background: #FFEAC5;
+    color: #FFEAC5;
+}
+.Four-four span:nth-of-type(2){
+    background: #FFE0AC;
+    color: #FFE0AC;
+}
+.Four-four span:nth-of-type(1){
+    background: #FFD691;
+    color: #FF7818;
+}

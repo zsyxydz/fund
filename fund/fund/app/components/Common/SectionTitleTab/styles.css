@@ -1,0 +1,25 @@
+.content-box {
+  height: 0.46rem;
+  background-color: #fff;
+  text-align: center;
+  /* color: #FF7818; */
+  color: #45474A
+}
+
+.icon {
+  float: left;
+  margin: 0.15rem 0 0 0.15rem;
+  width: 0.16rem;
+  height: 0.16rem;
+}
+
+.title-span{
+  float: left;
+  display: block;
+  font-family: PingFangSC-Medium;
+  font-size: 0.16rem;
+  color: #45474A;
+  margin-top: 0.15rem;
+  line-height: 0.16rem;
+  margin-left: 0.04rem;
+}

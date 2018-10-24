@@ -1,0 +1,134 @@
+.s_shares{
+    /* height: 4rem; */
+    padding: 0.2rem 0.15rem;
+    /* margin-bottom:0.08rem */
+}
+.clearfix:after{
+  content:"";
+  height:0;
+  line-height:0;
+  display:block;
+  clear:both;
+  visibility:hidden;
+  }
+.shares_name{
+    font-size:0.25rem;
+}
+.shares_radar{
+    font-size:0.25rem;
+
+}
+.shares_name{
+    color:#45474A;
+    font-size:0.2rem;
+    text-align: center;
+    font-weight:500;
+    font-family: "PingFangSC-Semibold";
+    margin-bottom:0.04rem;
+}
+.back-icon{
+  position: absolute;
+  display: inline-block;
+  width:0.16rem;
+  height:0.16rem;
+  top:0.02rem;
+}
+.height{
+  margin-left: 0.2rem;
+}
+.shares_introduce{
+    font-size: 0.16rem; 
+    text-align: center;
+    font-family: SFProDisplay-Medium;
+    font-size: 0.14rem;
+    font-weight: 400;
+    /* margin-bottom: 0.2rem; */
+}
+.shares_introduce>span:nth-of-type(1){
+    color:#aaa;
+    /* border-right:0.015rem solid; */
+    padding-right: 0.1rem;
+    position: relative;
+}
+.shares_introduce>span:nth-of-type(1) span{
+  position: absolute;
+  top:0.035rem;
+  right:0rem;
+  display: inline-block;
+  background-color: #aaa;
+  height:0.13rem;
+  width:0.015rem;
+  /* margin-top:0.05rem; */
+}
+.shares_introduce>span:nth-of-type(2){
+    color:#aaa;
+    padding:0 0.1rem;
+}
+.shares_introduce>span:nth-of-type(3){
+  position: relative;
+  color:#FF7818;
+}
+.shares_more{
+    font-size:0.14rem;
+    color:#45474A;
+}
+.more_num{
+    color:#FF7818;
+}
+.two_fund{
+  /* float: right; */
+  display: inline-block;
+  text-align: center;
+  color:#6E7175;
+  font-size: 0.12rem;
+  line-height: 0.2rem
+}
+.point_or{
+  display: inline-block;
+  width: 0.06rem;
+  height:0.06rem;
+  background:#FF7818;
+  border-radius: 0.06rem;
+  line-height: 0.2rem;
+}
+.point_cc{
+  display: inline-block;
+  width: 0.06rem;
+  height:0.06rem;
+  background:#E4F2FE;
+  border-radius: 0.06rem;
+  margin-left:0.1rem
+}
+.own_fund,.other_fund{
+  margin:0 0.1rem 0 0.05rem;
+}
+.shares_radar{
+  text-align: center;
+  height:2.5rem;
+}
+.shares_evaluate{
+  background: #F5FAFF;  
+  border-radius: 4px;
+  /* height:0.31rem; */
+  font-size:0.12rem;
+  padding: 0.15rem;
+}
+
+.shares_evaluate ul li{
+  width: 19.7%;
+  float: left;
+  text-align: center;
+  border-right:0.01rem solid rgba(0,0,0,0.04);
+}
+.shares_evaluate ul li p:nth-of-type(1){
+  color:#8490A1 ;
+  font-family:PingFangSC-Regular
+}
+.shares_evaluate ul li p:nth-of-type(2){
+  color:#8490A1 ;
+  font-size:0.16rem;
+  font-family: PingFangSC-Medium
+}
+.borderRight{
+  border-right:0
+}

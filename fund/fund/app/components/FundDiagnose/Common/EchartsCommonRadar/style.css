@@ -1,0 +1,117 @@
+.echartTest{
+    padding: 0 0.15rem;
+    width: 3.22rem;
+    height:2.52rem;
+    margin:0 auto;
+    /* margin-bottom:0.3rem; */
+}
+.echartbox{
+    padding: 0 0.15rem;
+    position: relative;
+}
+.echartbox1{
+    position: relative;
+    
+}
+#main{
+    width: 4.02rem !important;
+    height:4.02rem !important;
+    margin-top:0.3rem;
+}
+.score{
+    display: block;
+    position: absolute;
+    right:47%;
+    top: 50%;
+    width:0.3rem;
+    height:0.3rem;
+    margin:-0.2rem 0 0 -0.2rem;
+    color:#fff;
+    font-size: 0.3rem;
+    font-family: SFProDisplay-Semibold
+}
+.score_rule{
+    position: absolute;
+    /* width:3.7rem; */
+    /* height:3.15rem; */
+    right:0.15rem;
+    top:0.47rem;
+    z-index: 11;
+    display: block;
+    font-family: SFProText-Regular;
+    font-size: 0.12rem;;
+    color: #6E7175;
+    /* background-color: red */
+}
+.score_rule span{
+    display: inline-block;
+    width:0.1rem;
+    height: 0.1rem;
+    border-radius: 0.1rem;
+    border:0.01rem solid #6E7175;
+    line-height: 0.1rem;
+    font-size:0.08rem;
+    text-align: center;
+    margin-left: 0.03rem;
+    vertical-align: middle;
+}
+.shares_more{
+    font-size:0.14rem;
+    color:#45474A;
+    margin-bottom:0.2rem;
+}
+.shares_more span:nth-of-type(1){
+    font-family: SFProDisplay-Medium;
+}
+.more_num{
+    color:#FF7818;
+}
+.two_fund{
+  display: inline-block;
+  float: right;
+  text-align: center;
+  color:#6E7175;
+  font-size: 0.12rem;
+  line-height: 0.2rem
+}
+.point_or{
+  display: inline-block;
+  width: 0.06rem;
+  height:0.06rem;
+  background:#FF7818;
+  border-radius: 0.06rem;
+  line-height: 0.2rem;
+}
+.point_cc{
+  display: inline-block;
+  width: 0.06rem;
+  height:0.06rem;
+  background:#E4F2FE;
+  border-radius: 0.06rem;
+  margin-left:0.1rem
+}
+.own_fund,.other_fund{
+  margin:0 0.1rem 0 0.05rem;
+  font-family: PingFangSC-Regular;
+}
+.pos_score{
+    position: relative;
+}
+.date{
+    position: absolute;
+    bottom:0;
+}
+.date span:nth-of-type(1){
+    float:left
+}
+.date span:nth-of-type(2){
+    float:right
+}
+.default{
+    display: flex;
+    height:2.5rem;
+    justify-content: center;
+    /* align-items: center */
+  }
+  .echartTest{
+  }

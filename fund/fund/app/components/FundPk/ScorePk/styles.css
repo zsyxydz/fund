@@ -1,0 +1,36 @@
+.scorePk{
+  position: relative;
+}
+.scorePk>p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:-0.05rem;
+  margin-bottom:0.2rem
+}
+.scorePk>p>span:nth-of-type(1){
+  font-family: SFProDisplay-Bold;
+  font-size: .28rem;
+  color: #9A5E00;
+  text-align: right;
+  line-height: .28rem;
+  font-weight: 700;
+  margin-right:.2rem
+} 
+.scorePk>p>span:nth-of-type(2){
+  font-family: SFProDisplay-Medium;
+  font-size: .16rem;
+  color: #6E7175;
+  text-align: center;
+  line-height: .16rem;
+  font-weight: 500;
+} 
+.scorePk>p>span:nth-of-type(3){
+  font-family: SFProDisplay-Bold;
+  font-size: .28rem;
+  color:  #546684;
+  text-align: left;
+  line-height: .28rem;
+  font-weight: 700;
+  margin-left:.2rem
+} 

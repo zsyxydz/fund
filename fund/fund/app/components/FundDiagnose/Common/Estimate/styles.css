@@ -1,0 +1,26 @@
+.common_bottom{
+  padding: 0 0rem 0.2rem 0rem;
+  border-bottom: 1px solid rgba(0,0,0,0.04);
+}
+.shares_evaluate{
+    background: #F5FAFF;  
+    border-radius: 4px;
+    /* height:0.31rem; */
+    font-size:0.12rem;
+    padding: 0.15rem 0.08rem;
+  }
+  .borderRight{
+    border-right:0
+  }
+  .clearfix:after{
+    content:"";
+    height:0;
+    line-height:0;
+    display:block;
+    clear:both;
+    visibility:hidden;
+    }
+    .shares_content{
+      color:red;
+      font-size:0.16rem
+    }

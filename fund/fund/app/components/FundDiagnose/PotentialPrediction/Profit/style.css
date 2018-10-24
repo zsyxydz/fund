@@ -1,0 +1,88 @@
+.clearfix:after{
+    content:'';
+    clear: both;
+    height:0;
+    display: block
+}
+.Profit>p{
+    background: #F5FAFF;
+    border-radius: .04rem;
+    padding: 0.12rem 0.08rem;
+    font-family: PingFangSC-Regular;
+    font-size: .13rem;
+    color: #74859E;
+    letter-spacing: 0;
+    text-align: center;
+}
+.Profit-days{
+    margin-bottom:0.15rem;
+}
+
+.Profit-left-box{
+    float: left;
+    width: 50%;
+    border-radius: .04rem 0 0 .04rem ;
+    background: #FFF4E5;
+}
+.Profit-right-box{
+    float: left;
+    width: 50%;
+    border-radius: 0 .04rem .04rem 0;
+    background: #F5FAFF;
+}
+
+.Profit-left{
+    padding:0.1rem 0.15rem;
+    font-size:0.14rem;
+}
+.Profit-right{
+    padding:0.1rem 0.15rem;
+    font-size:0.14rem;
+}
+.Profit-title{
+    margin-bottom:0.2rem;
+    }
+.Profit-title span:nth-of-type(1){
+    font-family: PingFangSC-Medium;
+    font-size: .14rem;
+    color: #6E7175;
+    letter-spacing: 0;
+    line-height: .14rem;
+}
+.Profit-title span:nth-of-type(2){
+    margin-left:0.08rem;
+    font-family: PingFangSC-Medium;
+    font-size: .14rem;
+    color: #FC4415;
+    letter-spacing: 0;
+    line-height: .14rem;
+}
+.Profit-right .Profit-title span:nth-of-type(2){
+    color: #1B88EE;
+}
+.Profit-content>div{
+    margin-bottom: 0.15rem;
+}
+.Profit-left .Profit-content>div>p>span:nth-of-type(1){
+    float: left;
+    font-family: PingFangSC-Medium;
+    font-size: .12rem;
+    color: #FF832B;
+    line-height: .12rem;
+}
+.Profit-content>div>p>span:nth-of-type(2){
+    float: right;
+    font-family: PingFangSC-Medium;
+    font-size: .12rem;
+    color: #6E7175;
+    letter-spacing: 0;
+    text-align: right;
+    line-height: .12rem;
+}
+.Profit-right .Profit-content>div>p>span:nth-of-type(1){
+    float: left;
+    font-family: PingFangSC-Medium;
+    font-size: .12rem;
+    color: #58AEFF;
+    line-height: .12rem;
+}

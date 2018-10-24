@@ -1,0 +1,29 @@
+.score_rule{
+    position: absolute;
+    /* width:3.7rem; */
+    /* height:3.15rem; */
+    right:0.15rem;
+    top:2.37rem;
+    z-index: 11;
+    display: block;
+    font-family: SFProText-Regular;
+    font-size: 0.12rem;;
+    /* background:red; */
+    color: #6E7175;
+    z-index: 100;
+    /* background-color: red */
+  }
+  .score_rule span{
+    display: inline-block;
+    font-size:0.12rem;
+    text-align: center;
+    margin-right: 0.16rem;
+    vertical-align: middle;
+  }
+  .score_rule img{
+    position: absolute;
+    right:0rem;
+    top:0.02rem;
+    width:0.16rem;
+    height:0.16rem;
+  }

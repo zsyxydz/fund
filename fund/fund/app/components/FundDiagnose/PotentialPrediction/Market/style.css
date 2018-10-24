@@ -1,0 +1,243 @@
+.clearfix:after{
+    content:'';
+    clear: both;
+    height:0;
+    display: block
+}
+.market{
+    position: relative;
+    /* border: 0.005rem solid #E7E7E7; */
+    height:1.9rem;
+    margin-bottom:0.2rem;
+}
+.market ul{
+    margin:0 auto;
+    margin-bottom:0.14rem;
+    /* border-bottom: 0.01rem solid red; */
+    border-bottom: 0.005rem solid rgba(0,0,0,0.06);
+    height:0.94rem;
+    width: 100%;
+}
+/* .market>ul>li{
+    position: relative;
+    margin-top:0.2rem;
+    float: left;
+    height:0.81rem;
+    text-align: center;
+    width: 33%;
+    border-bottom: 0.01rem solid rgba(0,0,0,0.06);
+} */
+/* .market ul li>div>div{
+    bottom:0rem;
+    left:0rem;
+    display: inline-block;
+    float: left;
+    background: #fff;
+    background:blue;
+    border-radius: 0.04rem 0.04rem 0 0;
+    width:0.16rem;
+    margin-right: 0.08rem;    
+    height:100%;  
+
+} */
+/* .market ul li div:nth-of-type(1)>span{
+    position: absolute;
+    bottom:0;
+    left:0;
+    display: inline-block;
+    background-image: linear-gradient(-180deg, #FF7831 0%, #FFC129 100%);
+    border-radius: 0.04rem 0.04rem 0 0;
+    width:0.16rem;
+    height:40%; 
+    
+}
+.market ul li div:nth-of-type(2)>span{
+    display: inline-block;
+    position: absolute;
+    left:0;
+    bottom:0;
+    background: #E4F2FF;
+    border-radius: 0.04rem 0.04rem 0 0;
+    width:0.16rem;
+    height:40%
+}
+.market ul li div:nth-of-type(3)>span{
+    display: inline-block;
+    position: absolute;
+    left:0;
+    bottom:0;
+    background: #ECEDED;
+    border-radius: 0.04rem 0.04rem 0 0;
+    width:0.16rem;
+    height:70%
+} */
+.market p{
+    position: absolute;
+    bottom:-0.2rem;
+    left:0rem;
+    width: 100%
+}
+.market p span{
+    display: inline-block;
+    width:33%;
+    text-align: center;
+    font-family: PingFangSC-Regular;
+    font-size: .14rem;
+    color: #6E7175;
+    line-height: .14rem;
+}
+
+.top li:nth-of-type(1){
+    width:33%;
+    /* background: blue */
+}
+.top li:nth-of-type(2){
+    width:33%;
+    /* background: yellow */
+}
+.top li:nth-of-type(3){
+    width:33%;
+    /* background: green */
+}
+.top li{
+    position: relative;
+    float: left;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    
+}
+.top li>div{
+    position: absolute;
+    width: 70%;
+    height:80%;
+    bottom:0rem;
+    left:0.15rem;
+    vertical-align:bottom;
+    background: #fff;
+}
+.top li:nth-of-type(3)>div{
+    position: absolute;
+    width: 70%;
+    height:80%;
+    bottom:-81%;
+    left:0.15rem;
+    vertical-align:top;
+    background: #fff;
+}
+.top li>div>div{
+    position: relative;
+    vertical-align:bottom;
+    width:0.16rem;
+    height:100%;
+    /* background: pink; */
+    margin:0 0.01rem 0 0.07rem; 
+    float: left;
+}
+.one>div>div:nth-of-type(1) .zhu{
+    position: absolute;
+    background-image: linear-gradient(-180deg, #FF7831 0%, #FFC129 100%);
+    border-radius: 0.04rem 0.04rem 0 0;
+    bottom:0;
+    left:0rem;
+    display: block;
+    width:0.16rem;
+    height: 50%;
+}
+.one>div>div:nth-of-type(2) .zhu{
+    position: absolute;
+    background:#E4F2FF;
+    border-radius: 0.04rem 0.04rem 0 0;
+    bottom:0;
+    left:0rem;
+    display: block;
+    width:0.16rem;
+    height: 70%;
+}
+.one>div>div:nth-of-type(3) .zhu{
+    position: absolute;
+    background:#ECEDED;
+    border-radius: 0.04rem 0.04rem 0 0;
+    bottom:0;
+    left:0rem;
+    display: block;
+    width:0.16rem;
+    height: 20%;
+}
+.three>div>div:nth-of-type(1) .zhu{
+    position: absolute;
+    background-image: linear-gradient(-180deg, #FF7831 0%, #FFC129 100%);
+    border-radius: 0 0 0.04rem 0.04rem;
+    top:0;
+    left:0rem;
+    display: block;
+    width:0.16rem;
+    height: 22%;
+}
+.three>div>div:nth-of-type(2) .zhu{
+    position: absolute;
+    background:#E4F2FF;
+    border-radius: 0 0 0.04rem 0.04rem;
+    top:0;
+    left:0rem;
+    display: block;
+    width:0.16rem;
+    height: 60%;
+}
+.three>div>div:nth-of-type(3) .zhu{
+    position: absolute;
+    background:#ECEDED;
+    border-radius: 0 0 0.04rem 0.04rem;
+    top:0;
+    left:0rem;
+    display: block;
+    width:0.16rem;
+    height: 32%;
+}
+.two>div>div:nth-of-type(1) .zhu{
+    position: absolute;
+    background-image: linear-gradient(-180deg, #FF7831 0%, #FFC129 100%);
+    border-radius: 0.04rem 0.04rem 0 0;
+    bottom:0;
+    left:0rem;
+    display: block;
+    width:0.16rem;
+    height: 30%;
+}
+.two>div>div:nth-of-type(2) .zhu{
+    position: absolute;
+    background:#E4F2FF;
+    border-radius: 0.04rem 0.04rem 0 0;
+    bottom:0;
+    left:0rem;
+    display: block;
+    width:0.16rem;
+    height: 35%;
+}
+.two>div>div:nth-of-type(3) .zhu{
+    position: absolute;
+    background:#ECEDED;
+    border-radius: 0.04rem 0.04rem 0 0;
+    bottom:0;
+    left:0rem;
+    display: block;
+    width:0.16rem;
+    height: 15%;
+}
+
+
+.top .zhu{
+    font-size:0.1rem;
+    color:#8490A1
+}
+.top .two .num, .top .one .num{
+    position: absolute;
+    top:-0.13rem;
+    left:-.03rem
+}
+.three .zhu .num{
+    position: absolute;
+    bottom:-0.13rem !important;
+    left:-.03rem
+}

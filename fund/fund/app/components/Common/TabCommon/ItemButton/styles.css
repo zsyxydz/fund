@@ -1,0 +1,39 @@
+.content-box{
+  float: left;
+  border: 0.01rem solid #F5F5F5;
+}
+.content-box p{
+  width: 0.6rem;
+  padding: 0.06rem 0;
+}
+.selected-text {
+  display: block;
+  width: auto;
+  letter-spacing: 0;
+  background: #FFF4E5;
+  /* border: 0.01rem solid #F5F5F5; */
+  font-family: PingFangSC-Regular;
+  font-size: 0.12rem;
+  color: #FF7818;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 0.12rem;
+}
+
+.unselected-text {
+  display: block;
+  width: auto;
+  font-family: PingFangSC-Regular;
+  font-size: 0.12rem;
+  color: #B4B4B4;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 0.12rem;
+}
+
+.underline {
+  background: #FF7818;
+  width: 0.26rem;
+  height: 0.02rem;
+  margin-left: 0.15rem;
+}

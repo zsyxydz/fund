@@ -1,0 +1,128 @@
+
+.clearfix:after{
+    content:"";
+    height:0;
+    line-height:0;
+    display:block;
+    clear:both;
+    visibility:hidden;
+    }
+.products-box ul li>div{
+    float: left;
+}
+.products-box ul{
+  margin-top:-.18rem;
+
+}
+.products-list{
+  position: relative;
+  border-bottom :0.01rem solid rgba(0,0,0,0.08);
+  padding: 0.09rem 0;
+}
+
+.products-list-right{
+  margin-left:1.2rem;
+
+}
+.products-list-left{
+  width: 1.06rem;
+  position: absolute;
+  left:0;
+  top:0.15rem;
+  border-right:0.01rem solid rgba(0,0,0,0.04);
+  font-family: PingFangSC-Semibold;
+  text-align: center;
+  letter-spacing: 0;
+
+}
+.products-list-left p:nth-of-type(1){
+font-size: .26rem;
+color: #FF7818;
+line-height: .26rem;
+/* font-weight:400; */
+margin-bottom:0.06rem;
+}
+.products-list-left p:nth-of-type(2){
+  font-size: .12rem;
+  color: #45474A;
+  line-height: .12rem;
+}
+.products-list-right p:nth-of-type(1){
+  margin-bottom:0.06rem;
+  display: table
+}
+.products-list-right p:nth-of-type(1) span{
+  font-family: PingFangSC-Medium;
+  vertical-align: middle;
+  display: table-cell;
+  font-size: .16rem;
+  color: #45474A;
+  line-height: .16rem;
+}
+.products-list-right p:nth-of-type(1) img{
+  display: table-cell;
+  vertical-align: middle;
+  display: inline-block;
+  width: 0.6rem;
+  height: 0.2rem;
+  margin-left:0.04rem;
+}
+.products-list-right p:nth-of-type(3){
+  margin-top:0.06rem;
+  font-family: SFProText-Regular;
+  font-size: .12rem;
+  color: #AAAAAA;
+  letter-spacing: 0;
+  font-weight:400;
+  line-height: .12rem;
+}
+.products-list-right p:nth-of-type(3) span{
+  margin-right:0.05rem
+}
+.products-list-right p:nth-of-type(2) span{
+  margin-right:0.04rem;
+}
+.blue-light{
+  display: inline-block;
+  background: #E9F5FF;
+  border-radius: .04rem;
+  padding: 0.04rem 0.08rem;
+ /* font-family: PingFangSC-Regular; */
+  font-size: .11rem;
+  color: #58AEFF;
+  text-align: center;
+  font-weight:400;
+  line-height: .11rem;
+}
+.word{
+  background: #F5FAFF;
+  position: relative;
+  border-radius:0.04rem;
+  font-family: PingFangSC-Regular;
+  font-size: .12rem;
+  color: #8490A1;
+  letter-spacing: 0;
+  margin-top:0.1rem;
+  padding: 0.08rem 0.1rem;
+  margin-left:0.34rem;
+}
+.products-list-bottom{position: relative;}
+.products-list-bottom img{
+  position: absolute;
+  top:0.1rem;
+  left:0.01rem;
+  width:0.24rem;
+  height:0.24rem
+}
+
+.word span{
+  position: absolute;
+  top:0rem;
+  left: -.1rem;
+  display: block;
+  width:0;
+  height:0;
+  border-left: 0.1rem solid transparent;
+  border-right: 0.1rem solid transparent;
+  border-top: 0.1rem solid #F5FAFF;
+}

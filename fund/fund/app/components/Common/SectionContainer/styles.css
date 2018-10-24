@@ -1,0 +1,46 @@
+.section-box {
+  width: 100%;
+  background: #FFFFFF;
+  /* padding-bottom: 0.15rem; */
+}
+
+.section-title-area {
+  width: 100%;
+  height: 0.46rem;
+  background: #FFFFFF;
+  border-bottom: 0.01rem solid rgba(0, 0, 0, 0.04);
+}
+
+.left-side-area {
+  float: left;
+  /* width: 1.3rem; */
+}
+
+.right-side-area {
+  float: right;
+  /* width: 1.68rem; */
+  height: 0.46rem;
+}
+
+.section-content-area{
+  padding: 0.18rem 0.15rem 0.15rem;
+  /* padding-top: 0.16rem; */
+
+}
+.noRightpadding{
+  padding-right:0
+}
+.clearfix:after{
+  content:"";
+  height:0;
+  line-height:0;
+  display:block;
+  clear:both;
+  visibility:hidden;
+  }
+.separator-line {
+  margin-bottom: 0.08rem;
+}
+.nonn{
+  background: none
+}

@@ -1,0 +1,324 @@
+.changeColor {
+    background: #FC4415;
+}
+@color: #fff;
+.content{
+    background-image: url('../../images/c-bg.png') ;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    background-position:0 -1.8rem
+}
+.titleBox .swiper-container{
+    padding-bottom: 0.1rem;
+}
+.titleBox>p:nth-of-type(1){
+    font-family: PingFangSC-Semibold;
+    font-size: .20rem;
+    color: @color;
+    line-height: .20rem;
+    padding: 0.09rem 0 ;
+    text-align: center
+}
+.swiper-container{
+    padding-bottom:0.16rem !important
+}
+.titleBox>p:nth-of-type(2){
+    opacity: 0.9;
+    font-family: SFProText-Medium;
+    font-size: .12rem;
+    margin-bottom:0.15rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: .12rem;
+    text-align: center
+}
+.first{
+    color:red;
+}
+.clearfix:after{
+    clear:both;
+    height:0;
+    content:'';
+    display: block
+}
+.swiper-list{
+    padding: 0.2rem;
+    /* border: 0.01rem solid #333333; */
+    background: #fff;
+    box-shadow: 0 .1rem .16rem 0 rgba(188,89,30,0.20);
+    border-radius: 0.04rem;
+    margin:0;
+    overflow: hidden;
+    width:2.63rem;
+    margin: 0 auto
+}
+
+.list{
+    /* display: flex; */
+    display: -webkit-flex;
+    justify-content: center;  /*水平居中*/
+    align-items: center; 
+    padding:0.15rem 0;
+    overflow: hidden;
+}
+
+.carousel>div{
+    width: 3rem;
+    font-size:0.14rem;
+}
+.list-title{
+    position: relative;
+}
+.list-title-message{
+    margin-left: 0.76rem;
+}
+.list-title-pie{
+    position: absolute;
+    left:-0.03rem;
+    top:-0.25rem;
+    /* background: red; */
+}
+.list-title-pie img{
+    width:100%;
+    height:100% 
+}
+.list-title-pie{
+    width:0.66rem;
+    height:0.66rem;
+}
+.list-title-message p:nth-of-type(1){
+    font-family: PingFangSC-Medium;
+    font-size: .14rem;
+    color: #45474A;
+    line-height: .14rem;
+    margin-bottom:0.04rem;
+}
+.list-title-message p:nth-of-type(2){
+    font-family: SFProText-Medium;
+    font-size: .12rem;
+    color: #AAAAAA;
+    margin-bottom:0.04rem;
+    line-height: .12rem;
+    font-weight: 400
+}
+.list-title-message p:nth-of-type(3) span{
+    padding: 0.04rem 0.08rem;
+    display: inline-block;
+    background: #E9F5FF;
+    border-radius: 0.04rem;
+    /* font-family: PingFangSC-Regular; */
+    font-size: .11rem;
+    color: #58AEFF;
+    text-align: center;
+    line-height: .11rem;
+    font-weight: 400;
+}
+
+.buy{
+    margin:0.2rem 0 0 0;
+    width:100%;
+    /* display: flex; */
+    display: -webkit-flex;
+
+    justify-content: center;  /*水平居中*/
+    /* align-items: center;  */
+}
+.list-content-top-rate-right{
+    position: relative;
+    width: 1.47rem;
+    height:0.54rem;
+    /* background: #333; */
+    border-bottom:0.01rem solid rgba(0,0,0,0.08)
+}
+.list-content-top-rate-right img{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+}
+.pie{
+    position: absolute;
+    top: 0rem;
+    left:0rem
+}
+.buy span{
+    .changeColor();
+    display: inline-block;
+    border-radius: .165rem;
+    padding: 0.08rem 0.54rem ;
+    font-family: PingFangSC-Semibold;
+    font-size: .16rem;
+    color: #FFFFFF;
+    /* text-align: center; */
+    line-height: .16rem;
+}
+.list-content{
+    margin-top:0.16rem;
+}
+.list-content-tag ul li{
+    float: left;
+    font-family: PingFangSC-Medium;
+    font-size: .12rem;
+    color: #8490A1;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: .12rem;
+}
+.list-content-top-rate-left{
+    position: absolute;
+    left:0.01rem;bottom:0rem;
+}
+.list-content-top-rate{
+    position: relative;
+}
+.list-content-top-rate-right{
+    margin-left:1.05rem;
+    width:1.47rem;height:.54rem;
+}
+.list-content-top-rate-left p:nth-of-type(1){
+    font-family: SFProDisplay-Semibold;
+    font-size: .26rem;
+    color: #FC4415;
+    letter-spacing: 0;
+    line-height: .26rem;
+    font-weight:400;
+    margin-bottom:0.04rem;
+}
+.list-content-top-rate-left p:nth-of-type(2){
+    font-family: PingFangSC-Medium;
+    font-size: .12rem;
+    color: #45474A;
+    letter-spacing: 0;
+    line-height: .12rem;
+}
+.list-content-tag{
+    margin-top:0.1rem;
+    
+}
+.list-content-tag ul li{
+    width: 33%;
+    background:  #F5FAFF;
+    border-radius: 0.04rem;
+    padding: 0.08rem 0rem
+}
+.two{
+    border:0.01rem solid red;
+}
+.loadingBox{
+    height:3.5rem;
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+#certify {
+	position: relative;
+	width: 1200px;
+    margin: 0 auto;
+    .swiper-container {
+        padding-bottom: 60px;
+    }
+    .swiper-slide {
+        width: 520px;
+        height: 408px;
+        background: #fff;
+        box-shadow: 0 8px 30px #ddd;
+    }
+    .swiper-slide img{
+        display:block;
+    }
+}
+
+// #certify .swiper-container {
+// 	padding-bottom: 60px;
+// }
+
+// #certify .swiper-slide {
+// 	width: 520px;
+// 	height: 408px;
+// 	background: #fff;
+// 	box-shadow: 0 8px 30px #ddd;
+// }
+// #certify .swiper-slide img{
+// 	display:block;
+// }
+#certify .swiper-slide p {
+	line-height: 98px;
+	padding-top: 0;
+	text-align: center;
+	color: #636363;
+	font-size: 1.1em;
+	margin: 0;
+}
+
+#certify .swiper-pagination {
+	width: 100%;
+	bottom: 20px;
+}
+
+#certify .swiper-pagination-bullets .swiper-pagination-bullet {
+	margin: 0 5px;
+	border: 3px solid #fff;
+	background-color: #d5d5d5;
+	width: 10px;
+	height: 10px;
+	opacity: 1;
+}
+
+#certify .swiper-pagination-bullets .swiper-pagination-bullet-active {
+	border: 3px solid #00aadc;
+	background-color: #fff;
+}
+
+#certify .swiper-button-prev {
+	left: -30px;
+	width: 45px;
+	height: 45px;
+	/* background: url(../images/wm_button_icon.png) no-repeat; */
+	background-position: 0 0;
+	background-size: 100%;
+}
+
+#certify .swiper-button-prev:hover {
+	background-position: 0 -46px;
+	background-size: 100%
+}
+
+#certify .swiper-button-next {
+	right: -30px;
+	width: 45px;
+	height: 45px;
+	/* background: url(../images/wm_button_icon.png) no-repeat; */
+	background-position: 0 -93px;
+	background-size: 100%;
+}
+
+#certify .swiper-button-next:hover {
+	background-position: 0 -139px;
+	background-size: 100%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

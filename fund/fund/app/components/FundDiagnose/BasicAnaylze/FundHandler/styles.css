@@ -1,0 +1,115 @@
+.Handler{
+  position: relative;
+  font-size:0.14rem;
+}
+.Handler-info{
+  position: relative;
+  margin-left: 0.7rem;
+  padding-bottom: 0.1rem;
+}
+.Handler-name span:nth-of-type(1){
+  font-family: PingFangSC-Medium;
+  font-size: 0.16rem;
+  color: #6E7175;
+  line-height: 0.16rem;
+}
+.Handler-name span:nth-of-type(2){
+  font-family: PingFangSC-Medium;
+  font-size: 0.12rem;
+  color: #6E7175 ;
+  line-height: 0.16rem;
+}
+.Handler-img{
+  /* background:red; */
+  width:0.57rem;
+  height:0.57rem;
+  border-radius:0.6rem;
+  position: absolute;
+  left:0.01rem;
+  top:-0.07rem;
+}
+.Handler-img img{
+  width:100%;
+  height:100%
+}
+.shares_evaluate{
+  background: #F5FAFF;  
+  border-radius: 0.04rem;
+  color: #74859E;
+  font-size:0.13rem;
+  padding: 0.1rem;
+  text-align: center
+}
+.Handler-name span{
+  margin-right:0.1rem;
+}
+.Handler-int{
+  font-family: PingFangSC-Regular;
+  font-size: 0.12rem;
+  color: #AAAAAA;
+  line-height: 0.12rem;
+  margin:0.08rem 0 0.2rem 0;
+}
+.Handler-particular {
+  margin-bottom:0.15rem;
+
+}
+.Handler-particular>span{
+  display: inline-block;
+  /* margin-right: 0.1rem; */
+  min-width:30%;
+  border-right:0.01rem solid rgba(0,0,0,0.04);
+}
+.Handler-particular>span:nth-of-type(3){
+  display: inline-block;
+  margin-right: 0.1rem;
+  margin-left:0.1rem;
+  border-right:none
+}
+.Handler-particular>span:nth-of-type(2){
+  /* margin-left: 0.05rem; */
+  min-width:23%;
+  margin-left:0.1rem;
+}
+.Handler-particular>span>span{
+  display: block;
+}
+.Handler-particular>span>span:nth-of-type(1){
+  font-family: PingFangSC-Semibold;
+  font-size: 0.14rem;
+  color: #000000;
+  line-height: 0.14rem;
+  margin-bottom: 0.08rem;
+}
+.Handler-particular>span>span:nth-of-type(1) abbr{
+  font-size:0.2rem;
+}
+.Handler-particular>span>span:nth-of-type(2){
+  font-family: PingFangSC-Regular;
+  font-size: 0.12rem;
+  color: #AAAAAA;
+  line-height: 0.12rem;
+}
+
+.light{
+  color:#45474A ;
+  font-weight: 500;
+
+}
+.dl{
+  position: absolute;
+  top:0rem;
+  right:0.35rem;
+}
+.dl span:nth-of-type(1){ 
+  font-family: PingFangSC-Semibold;
+  font-size: .20rem;
+  color: #58AEFF;
+  line-height: .18rem;
+}
+.dl span:nth-of-type(2){ 
+  font-family: PingFangSC-Regular;
+  font-size: .12rem;
+  color: #AAAAAA;
+  line-height: .12rem;
+}

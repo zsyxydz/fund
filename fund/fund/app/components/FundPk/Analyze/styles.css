@@ -1,0 +1,44 @@
+
+.basePk,.performancePk{
+  display: flex;
+  justify-content: center;
+}
+.basePk ul,.performancePk ul{
+  width:95%;
+}
+.basePk ul li{
+  padding: 0.08rem 0;
+  border-bottom:0.01rem solid rgba(0,0,0,0.04);
+}
+.basePk ul li:nth-of-type(1){
+margin-top: -0.15rem  
+}
+.basePk ul li span{
+  width:33%;
+  display: inline-block;
+  font-weight: 500;
+  /* margin:0.08rem 0 */
+}
+.basePk ul li span:nth-of-type(1){
+  text-align: right;
+  font-family: SFProDisplay-Medium;
+  font-size: .14rem;
+  color: #9A5E00;
+  text-align: right;
+  line-height: .14rem;
+}
+.basePk ul li span:nth-of-type(2){
+  text-align: center;
+  font-family: SFProText-Regular;
+font-size: .12rem;
+color: #AAAAAA;
+text-align: center;
+line-height: .12rem;
+}
+.basePk ul li span:nth-of-type(3){
+  text-align: left;
+  font-family: SFProDisplay-Medium;
+font-size: .14rem;
+color: #546684;
+line-height: .14rem;
+}

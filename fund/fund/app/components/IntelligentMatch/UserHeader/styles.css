@@ -1,0 +1,36 @@
+.content-box {
+  display: block;
+  padding-top: 0.44rem;
+  background: #FFFFFF;
+  height: 1.3rem;
+  width: 100%;
+  margin-bottom: 0.08rem;
+}
+
+.charts-container {
+  float: left;
+  margin: 0 0 0 0;
+  padding-top: 0.05rem;
+  padding-left: 0.23rem;
+  max-width: 1rem;
+  max-height: 1rem;
+}
+
+.text-tag-area{
+  float: left;
+  max-width: 2.3rem;
+  margin-left: 0.15rem;
+}
+
+.wel-text{
+  margin-top: 0.29rem;
+  font-family: PingFangSC-Semibold;
+  font-size: 0.2rem;
+  color: #45474A;
+  line-height: 0.2rem;
+}
+
+.tag-area{
+  margin-top: 0.15rem;
+  height: 0.64rem;
+}
